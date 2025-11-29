@@ -1,0 +1,127 @@
+[2025-11-29 22:20:16,103] Polynomial.java:155 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,105] Polynomial.java:156 [INFO]   다항식(Polynomial) p1 생성
+[2025-11-29 22:20:16,106] Polynomial.java:157 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,106] Polynomial.java:158 [INFO]           Polynomial: 7X^2 + 2X
+[2025-11-29 22:20:16,106] Polynomial.java:159 [INFO]               Degree: 2
+[2025-11-29 22:20:16,106] Polynomial.java:160 [INFO]            TermCount: 2
+[2025-11-29 22:20:16,106] Polynomial.java:161 [INFO]         Terms(Array): [[7, 2], [2, 1]]
+[2025-11-29 22:20:16,107] Polynomial.java:162 [INFO]     Polynomial(ref.): org.likebnb.ds.apps.Polynomial@2d3379b4
+[2025-11-29 22:20:16,107] Polynomial.java:163 [INFO]          Terms(ref.): [org.likebnb.ds.apps.Term@30c15d8b, org.likebnb.ds.apps.Term@5e0e82ae]
+[2025-11-29 22:20:16,109] Polynomial.java:164 [INFO] -------------------------------------------------------------
+
+[2025-11-29 22:20:16,118] Polynomial.java: 62 [WARN] 입력하신 위치(-1)는 배열의 첨자 범위(2)를 벗어납니다.
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 2
+	at org.likebnb.ds.apps.Polynomial.removeTerm(Polynomial.java:59)
+	at org.likebnb.ds.apps.PolynomialTest.testCase02(PolynomialTest.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
+[2025-11-29 22:20:16,121] Polynomial.java:155 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,121] Polynomial.java:156 [INFO]   다항식(Polynomial)에서 존재하지 않는 항 제거 시도 : p1.removeTerm(6)
+[2025-11-29 22:20:16,121] Polynomial.java:157 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,121] Polynomial.java:158 [INFO]           Polynomial: 7X^2 + 2X
+[2025-11-29 22:20:16,121] Polynomial.java:159 [INFO]               Degree: 2
+[2025-11-29 22:20:16,122] Polynomial.java:160 [INFO]            TermCount: 2
+[2025-11-29 22:20:16,122] Polynomial.java:161 [INFO]         Terms(Array): [[7, 2], [2, 1]]
+[2025-11-29 22:20:16,122] Polynomial.java:162 [INFO]     Polynomial(ref.): org.likebnb.ds.apps.Polynomial@2d3379b4
+[2025-11-29 22:20:16,122] Polynomial.java:163 [INFO]          Terms(ref.): [org.likebnb.ds.apps.Term@30c15d8b, org.likebnb.ds.apps.Term@5e0e82ae]
+[2025-11-29 22:20:16,122] Polynomial.java:164 [INFO] -------------------------------------------------------------
+
+[2025-11-29 22:20:16,123] Polynomial.java:155 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,124] Polynomial.java:156 [INFO]   다항식(Polynomial)에서 항 제거 : p1.removeTerm(1)
+[2025-11-29 22:20:16,124] Polynomial.java:157 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,124] Polynomial.java:158 [INFO]           Polynomial: 7X^2
+[2025-11-29 22:20:16,124] Polynomial.java:159 [INFO]               Degree: 2
+[2025-11-29 22:20:16,124] Polynomial.java:160 [INFO]            TermCount: 1
+[2025-11-29 22:20:16,124] Polynomial.java:161 [INFO]         Terms(Array): [[7, 2]]
+[2025-11-29 22:20:16,124] Polynomial.java:162 [INFO]     Polynomial(ref.): org.likebnb.ds.apps.Polynomial@2d3379b4
+[2025-11-29 22:20:16,124] Polynomial.java:163 [INFO]          Terms(ref.): [org.likebnb.ds.apps.Term@30c15d8b]
+[2025-11-29 22:20:16,125] Polynomial.java:164 [INFO] -------------------------------------------------------------
+
+[2025-11-29 22:20:16,125] Polynomial.java:155 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,126] Polynomial.java:156 [INFO]   다항식(Polynomial) p2 생성
+[2025-11-29 22:20:16,126] Polynomial.java:157 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,126] Polynomial.java:158 [INFO]           Polynomial: 4X^3 + 3X^2 + 2
+[2025-11-29 22:20:16,126] Polynomial.java:159 [INFO]               Degree: 3
+[2025-11-29 22:20:16,126] Polynomial.java:160 [INFO]            TermCount: 3
+[2025-11-29 22:20:16,126] Polynomial.java:161 [INFO]         Terms(Array): [[4, 3], [3, 2], [2, 0]]
+[2025-11-29 22:20:16,126] Polynomial.java:162 [INFO]     Polynomial(ref.): org.likebnb.ds.apps.Polynomial@185a6e9
+[2025-11-29 22:20:16,127] Polynomial.java:163 [INFO]          Terms(ref.): [org.likebnb.ds.apps.Term@6f03482, org.likebnb.ds.apps.Term@9d5509a, org.likebnb.ds.apps.Term@179ece50]
+[2025-11-29 22:20:16,127] Polynomial.java:164 [INFO] -------------------------------------------------------------
+
+[2025-11-29 22:20:16,128] Polynomial.java:155 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,128] Polynomial.java:156 [INFO]   다항식(Polynomial)의 덧셈 p1 + p2
+[2025-11-29 22:20:16,128] Polynomial.java:157 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,128] Polynomial.java:158 [INFO]           Polynomial: 4X^3 + 10X^2 + 2
+[2025-11-29 22:20:16,128] Polynomial.java:159 [INFO]               Degree: 3
+[2025-11-29 22:20:16,129] Polynomial.java:160 [INFO]            TermCount: 3
+[2025-11-29 22:20:16,129] Polynomial.java:161 [INFO]         Terms(Array): [[4, 3], [10, 2], [2, 0]]
+[2025-11-29 22:20:16,129] Polynomial.java:162 [INFO]     Polynomial(ref.): org.likebnb.ds.apps.Polynomial@3b0090a4
+[2025-11-29 22:20:16,129] Polynomial.java:163 [INFO]          Terms(ref.): [org.likebnb.ds.apps.Term@6f03482, org.likebnb.ds.apps.Term@3cd3e762, org.likebnb.ds.apps.Term@179ece50]
+[2025-11-29 22:20:16,129] Polynomial.java:164 [INFO] -------------------------------------------------------------
+
