@@ -1,0 +1,1646 @@
+[2025-11-29 22:20:16,103] Polynomial.java:155 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,105] Polynomial.java:156 [INFO]   다항식(Polynomial) p1 생성
+[2025-11-29 22:20:16,106] Polynomial.java:157 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,106] Polynomial.java:158 [INFO]           Polynomial: 7X^2 + 2X
+[2025-11-29 22:20:16,106] Polynomial.java:159 [INFO]               Degree: 2
+[2025-11-29 22:20:16,106] Polynomial.java:160 [INFO]            TermCount: 2
+[2025-11-29 22:20:16,106] Polynomial.java:161 [INFO]         Terms(Array): [[7, 2], [2, 1]]
+[2025-11-29 22:20:16,107] Polynomial.java:162 [INFO]     Polynomial(ref.): org.likebnb.ds.apps.Polynomial@2d3379b4
+[2025-11-29 22:20:16,107] Polynomial.java:163 [INFO]          Terms(ref.): [org.likebnb.ds.apps.Term@30c15d8b, org.likebnb.ds.apps.Term@5e0e82ae]
+[2025-11-29 22:20:16,109] Polynomial.java:164 [INFO] -------------------------------------------------------------
+
+[2025-11-29 22:20:16,118] Polynomial.java: 62 [WARN] 입력하신 위치(-1)는 배열의 첨자 범위(2)를 벗어납니다.
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 2
+	at org.likebnb.ds.apps.Polynomial.removeTerm(Polynomial.java:59)
+	at org.likebnb.ds.apps.PolynomialTest.testCase02(PolynomialTest.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
+[2025-11-29 22:20:16,121] Polynomial.java:155 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,121] Polynomial.java:156 [INFO]   다항식(Polynomial)에서 존재하지 않는 항 제거 시도 : p1.removeTerm(6)
+[2025-11-29 22:20:16,121] Polynomial.java:157 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,121] Polynomial.java:158 [INFO]           Polynomial: 7X^2 + 2X
+[2025-11-29 22:20:16,121] Polynomial.java:159 [INFO]               Degree: 2
+[2025-11-29 22:20:16,122] Polynomial.java:160 [INFO]            TermCount: 2
+[2025-11-29 22:20:16,122] Polynomial.java:161 [INFO]         Terms(Array): [[7, 2], [2, 1]]
+[2025-11-29 22:20:16,122] Polynomial.java:162 [INFO]     Polynomial(ref.): org.likebnb.ds.apps.Polynomial@2d3379b4
+[2025-11-29 22:20:16,122] Polynomial.java:163 [INFO]          Terms(ref.): [org.likebnb.ds.apps.Term@30c15d8b, org.likebnb.ds.apps.Term@5e0e82ae]
+[2025-11-29 22:20:16,122] Polynomial.java:164 [INFO] -------------------------------------------------------------
+
+[2025-11-29 22:20:16,123] Polynomial.java:155 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,124] Polynomial.java:156 [INFO]   다항식(Polynomial)에서 항 제거 : p1.removeTerm(1)
+[2025-11-29 22:20:16,124] Polynomial.java:157 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,124] Polynomial.java:158 [INFO]           Polynomial: 7X^2
+[2025-11-29 22:20:16,124] Polynomial.java:159 [INFO]               Degree: 2
+[2025-11-29 22:20:16,124] Polynomial.java:160 [INFO]            TermCount: 1
+[2025-11-29 22:20:16,124] Polynomial.java:161 [INFO]         Terms(Array): [[7, 2]]
+[2025-11-29 22:20:16,124] Polynomial.java:162 [INFO]     Polynomial(ref.): org.likebnb.ds.apps.Polynomial@2d3379b4
+[2025-11-29 22:20:16,124] Polynomial.java:163 [INFO]          Terms(ref.): [org.likebnb.ds.apps.Term@30c15d8b]
+[2025-11-29 22:20:16,125] Polynomial.java:164 [INFO] -------------------------------------------------------------
+
+[2025-11-29 22:20:16,125] Polynomial.java:155 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,126] Polynomial.java:156 [INFO]   다항식(Polynomial) p2 생성
+[2025-11-29 22:20:16,126] Polynomial.java:157 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,126] Polynomial.java:158 [INFO]           Polynomial: 4X^3 + 3X^2 + 2
+[2025-11-29 22:20:16,126] Polynomial.java:159 [INFO]               Degree: 3
+[2025-11-29 22:20:16,126] Polynomial.java:160 [INFO]            TermCount: 3
+[2025-11-29 22:20:16,126] Polynomial.java:161 [INFO]         Terms(Array): [[4, 3], [3, 2], [2, 0]]
+[2025-11-29 22:20:16,126] Polynomial.java:162 [INFO]     Polynomial(ref.): org.likebnb.ds.apps.Polynomial@185a6e9
+[2025-11-29 22:20:16,127] Polynomial.java:163 [INFO]          Terms(ref.): [org.likebnb.ds.apps.Term@6f03482, org.likebnb.ds.apps.Term@9d5509a, org.likebnb.ds.apps.Term@179ece50]
+[2025-11-29 22:20:16,127] Polynomial.java:164 [INFO] -------------------------------------------------------------
+
+[2025-11-29 22:20:16,128] Polynomial.java:155 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,128] Polynomial.java:156 [INFO]   다항식(Polynomial)의 덧셈 p1 + p2
+[2025-11-29 22:20:16,128] Polynomial.java:157 [INFO] -------------------------------------------------------------
+[2025-11-29 22:20:16,128] Polynomial.java:158 [INFO]           Polynomial: 4X^3 + 10X^2 + 2
+[2025-11-29 22:20:16,128] Polynomial.java:159 [INFO]               Degree: 3
+[2025-11-29 22:20:16,129] Polynomial.java:160 [INFO]            TermCount: 3
+[2025-11-29 22:20:16,129] Polynomial.java:161 [INFO]         Terms(Array): [[4, 3], [10, 2], [2, 0]]
+[2025-11-29 22:20:16,129] Polynomial.java:162 [INFO]     Polynomial(ref.): org.likebnb.ds.apps.Polynomial@3b0090a4
+[2025-11-29 22:20:16,129] Polynomial.java:163 [INFO]          Terms(ref.): [org.likebnb.ds.apps.Term@6f03482, org.likebnb.ds.apps.Term@3cd3e762, org.likebnb.ds.apps.Term@179ece50]
+[2025-11-29 22:20:16,129] Polynomial.java:164 [INFO] -------------------------------------------------------------
+
+[2025-11-29 22:39:34,833] HelloJavaWorldTest.java: 17 [INFO] 이 클래스가 생성되는 시점에 자동으로 실행
+[2025-11-29 22:39:34,842] HelloJavaWorld.java: 10 [INFO] Hello Java World!
+[2025-11-29 22:39:34,854] HelloJavaWorldTest.java: 22 [INFO] 모든 @Test 수행 후 마지막으로 실행되는 메쏘드
+[2025-11-29 22:39:44,030] Polynomial.java:155 [INFO] -------------------------------------------------------------
+[2025-11-29 22:39:44,033] Polynomial.java:156 [INFO]   다항식(Polynomial) p1 생성
+[2025-11-29 22:39:44,034] Polynomial.java:157 [INFO] -------------------------------------------------------------
+[2025-11-29 22:39:44,034] Polynomial.java:158 [INFO]           Polynomial: 7X^2 + 2X
+[2025-11-29 22:39:44,034] Polynomial.java:159 [INFO]               Degree: 2
+[2025-11-29 22:39:44,034] Polynomial.java:160 [INFO]            TermCount: 2
+[2025-11-29 22:39:44,034] Polynomial.java:161 [INFO]         Terms(Array): [[7, 2], [2, 1]]
+[2025-11-29 22:39:44,035] Polynomial.java:162 [INFO]     Polynomial(ref.): org.likebnb.ds.apps.Polynomial@74235045
+[2025-11-29 22:39:44,035] Polynomial.java:163 [INFO]          Terms(ref.): [org.likebnb.ds.apps.Term@618b19ad, org.likebnb.ds.apps.Term@2d3379b4]
+[2025-11-29 22:39:44,035] Polynomial.java:164 [INFO] -------------------------------------------------------------
+
+[2025-11-29 22:39:44,046] Polynomial.java: 62 [WARN] 입력하신 위치(-1)는 배열의 첨자 범위(2)를 벗어납니다.
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 2
+	at org.likebnb.ds.apps.Polynomial.removeTerm(Polynomial.java:59)
+	at org.likebnb.ds.apps.PolynomialTest.testCase02(PolynomialTest.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
+[2025-11-29 22:39:44,049] Polynomial.java:155 [INFO] -------------------------------------------------------------
+[2025-11-29 22:39:44,049] Polynomial.java:156 [INFO]   다항식(Polynomial)에서 존재하지 않는 항 제거 시도 : p1.removeTerm(6)
+[2025-11-29 22:39:44,049] Polynomial.java:157 [INFO] -------------------------------------------------------------
+[2025-11-29 22:39:44,049] Polynomial.java:158 [INFO]           Polynomial: 7X^2 + 2X
+[2025-11-29 22:39:44,049] Polynomial.java:159 [INFO]               Degree: 2
+[2025-11-29 22:39:44,049] Polynomial.java:160 [INFO]            TermCount: 2
+[2025-11-29 22:39:44,049] Polynomial.java:161 [INFO]         Terms(Array): [[7, 2], [2, 1]]
+[2025-11-29 22:39:44,049] Polynomial.java:162 [INFO]     Polynomial(ref.): org.likebnb.ds.apps.Polynomial@74235045
+[2025-11-29 22:39:44,051] Polynomial.java:163 [INFO]          Terms(ref.): [org.likebnb.ds.apps.Term@618b19ad, org.likebnb.ds.apps.Term@2d3379b4]
+[2025-11-29 22:39:44,051] Polynomial.java:164 [INFO] -------------------------------------------------------------
+
+[2025-11-29 22:39:44,052] Polynomial.java:155 [INFO] -------------------------------------------------------------
+[2025-11-29 22:39:44,052] Polynomial.java:156 [INFO]   다항식(Polynomial)에서 항 제거 : p1.removeTerm(1)
+[2025-11-29 22:39:44,052] Polynomial.java:157 [INFO] -------------------------------------------------------------
+[2025-11-29 22:39:44,052] Polynomial.java:158 [INFO]           Polynomial: 7X^2
+[2025-11-29 22:39:44,053] Polynomial.java:159 [INFO]               Degree: 2
+[2025-11-29 22:39:44,053] Polynomial.java:160 [INFO]            TermCount: 1
+[2025-11-29 22:39:44,053] Polynomial.java:161 [INFO]         Terms(Array): [[7, 2]]
+[2025-11-29 22:39:44,053] Polynomial.java:162 [INFO]     Polynomial(ref.): org.likebnb.ds.apps.Polynomial@74235045
+[2025-11-29 22:39:44,053] Polynomial.java:163 [INFO]          Terms(ref.): [org.likebnb.ds.apps.Term@618b19ad]
+[2025-11-29 22:39:44,053] Polynomial.java:164 [INFO] -------------------------------------------------------------
+
+[2025-11-29 22:39:44,054] Polynomial.java:155 [INFO] -------------------------------------------------------------
+[2025-11-29 22:39:44,054] Polynomial.java:156 [INFO]   다항식(Polynomial) p2 생성
+[2025-11-29 22:39:44,054] Polynomial.java:157 [INFO] -------------------------------------------------------------
+[2025-11-29 22:39:44,054] Polynomial.java:158 [INFO]           Polynomial: 4X^3 + 3X^2 + 2
+[2025-11-29 22:39:44,055] Polynomial.java:159 [INFO]               Degree: 3
+[2025-11-29 22:39:44,055] Polynomial.java:160 [INFO]            TermCount: 3
+[2025-11-29 22:39:44,055] Polynomial.java:161 [INFO]         Terms(Array): [[4, 3], [3, 2], [2, 0]]
+[2025-11-29 22:39:44,055] Polynomial.java:162 [INFO]     Polynomial(ref.): org.likebnb.ds.apps.Polynomial@5bda8e08
+[2025-11-29 22:39:44,055] Polynomial.java:163 [INFO]          Terms(ref.): [org.likebnb.ds.apps.Term@1e800aaa, org.likebnb.ds.apps.Term@185a6e9, org.likebnb.ds.apps.Term@6f03482]
+[2025-11-29 22:39:44,055] Polynomial.java:164 [INFO] -------------------------------------------------------------
+
+[2025-11-29 22:39:44,056] Polynomial.java:155 [INFO] -------------------------------------------------------------
+[2025-11-29 22:39:44,056] Polynomial.java:156 [INFO]   다항식(Polynomial)의 덧셈 p1 + p2
+[2025-11-29 22:39:44,056] Polynomial.java:157 [INFO] -------------------------------------------------------------
+[2025-11-29 22:39:44,056] Polynomial.java:158 [INFO]           Polynomial: 4X^3 + 10X^2 + 2
+[2025-11-29 22:39:44,057] Polynomial.java:159 [INFO]               Degree: 3
+[2025-11-29 22:39:44,057] Polynomial.java:160 [INFO]            TermCount: 3
+[2025-11-29 22:39:44,057] Polynomial.java:161 [INFO]         Terms(Array): [[4, 3], [10, 2], [2, 0]]
+[2025-11-29 22:39:44,057] Polynomial.java:162 [INFO]     Polynomial(ref.): org.likebnb.ds.apps.Polynomial@9d5509a
+[2025-11-29 22:39:44,057] Polynomial.java:163 [INFO]          Terms(ref.): [org.likebnb.ds.apps.Term@1e800aaa, org.likebnb.ds.apps.Term@179ece50, org.likebnb.ds.apps.Term@6f03482]
+[2025-11-29 22:39:44,057] Polynomial.java:164 [INFO] -------------------------------------------------------------
+
+[2025-11-29 23:09:25,377] PolynomialLinkedList.java: 31 [INFO] --------------------------------------
+[2025-11-29 23:09:25,380] PolynomialLinkedList.java: 32 [INFO]  newNode: 3X^4
+[2025-11-29 23:09:25,380] PolynomialLinkedList.java: 33 [INFO] --------------------------------------
+[2025-11-29 23:09:25,381] PolynomialLinkedList.java: 74 [INFO] 1. prevNode(null), nextNode(null)
+[2025-11-29 23:09:25,381] PolynomialLinkedList.java: 75 [INFO] 2. There is no term, termCount(0).
+[2025-11-29 23:09:25,381] PolynomialLinkedList.java: 76 [INFO]     +---> append newNode(3X^4) after head
+[2025-11-29 23:09:25,381] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,382] PolynomialLinkedList.java:134 [INFO]      addTerm: 3X^4
+[2025-11-29 23:09:25,382] PolynomialLinkedList.java:138 [INFO]    termCount: 1
+[2025-11-29 23:09:25,382] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,382] PolynomialLinkedList.java:140 [INFO]    polyTerms: [3, 4]
+[2025-11-29 23:09:25,382] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,383] PolynomialLinkedList.java: 31 [INFO] --------------------------------------
+[2025-11-29 23:09:25,383] PolynomialLinkedList.java: 32 [INFO]  newNode: 7
+[2025-11-29 23:09:25,383] PolynomialLinkedList.java: 33 [INFO] --------------------------------------
+[2025-11-29 23:09:25,383] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(), nextNode(3X^4)
+[2025-11-29 23:09:25,383] PolynomialLinkedList.java: 57 [INFO] 2. newNode(7) < nextNode(3X^4) and nextNode.getLink() is null
+[2025-11-29 23:09:25,383] PolynomialLinkedList.java: 58 [INFO]     +---> append after nextNode(3X^4), because it's last!
+[2025-11-29 23:09:25,384] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,384] PolynomialLinkedList.java:134 [INFO]      addTerm: 7
+[2025-11-29 23:09:25,384] PolynomialLinkedList.java:138 [INFO]    termCount: 2
+[2025-11-29 23:09:25,384] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,384] PolynomialLinkedList.java:140 [INFO]    polyTerms: [3, 4][7, 0]
+[2025-11-29 23:09:25,384] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,384] PolynomialLinkedList.java: 31 [INFO] --------------------------------------
+[2025-11-29 23:09:25,384] PolynomialLinkedList.java: 32 [INFO]  newNode: 3X^2
+[2025-11-29 23:09:25,385] PolynomialLinkedList.java: 33 [INFO] --------------------------------------
+[2025-11-29 23:09:25,385] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(), nextNode(3X^4)
+[2025-11-29 23:09:25,385] PolynomialLinkedList.java: 65 [INFO] 3. fetch nextNode:7
+[2025-11-29 23:09:25,385] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(3X^4), nextNode(7)
+[2025-11-29 23:09:25,385] PolynomialLinkedList.java: 41 [INFO] 2. newNode(3X^2) > nextNode(7)
+[2025-11-29 23:09:25,386] PolynomialLinkedList.java: 42 [INFO]     +---> insert before nextNode(7)
+[2025-11-29 23:09:25,386] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,386] PolynomialLinkedList.java:134 [INFO]      addTerm: 3X^2
+[2025-11-29 23:09:25,386] PolynomialLinkedList.java:138 [INFO]    termCount: 3
+[2025-11-29 23:09:25,386] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,386] PolynomialLinkedList.java:140 [INFO]    polyTerms: [3, 4][3, 2][7, 0]
+[2025-11-29 23:09:25,386] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,386] PolynomialLinkedList.java: 31 [INFO] --------------------------------------
+[2025-11-29 23:09:25,387] PolynomialLinkedList.java: 32 [INFO]  newNode: 9X^3
+[2025-11-29 23:09:25,387] PolynomialLinkedList.java: 33 [INFO] --------------------------------------
+[2025-11-29 23:09:25,387] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(), nextNode(3X^4)
+[2025-11-29 23:09:25,387] PolynomialLinkedList.java: 65 [INFO] 3. fetch nextNode:3X^2
+[2025-11-29 23:09:25,387] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(3X^4), nextNode(3X^2)
+[2025-11-29 23:09:25,387] PolynomialLinkedList.java: 41 [INFO] 2. newNode(9X^3) > nextNode(3X^2)
+[2025-11-29 23:09:25,387] PolynomialLinkedList.java: 42 [INFO]     +---> insert before nextNode(3X^2)
+[2025-11-29 23:09:25,387] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,388] PolynomialLinkedList.java:134 [INFO]      addTerm: 9X^3
+[2025-11-29 23:09:25,388] PolynomialLinkedList.java:138 [INFO]    termCount: 4
+[2025-11-29 23:09:25,388] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,388] PolynomialLinkedList.java:140 [INFO]    polyTerms: [3, 4][9, 3][3, 2][7, 0]
+[2025-11-29 23:09:25,388] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,388] PolynomialLinkedList.java: 85 [INFO] --------------------------------------
+[2025-11-29 23:09:25,388] PolynomialLinkedList.java: 86 [INFO]  removeNode: 1
+[2025-11-29 23:09:25,388] PolynomialLinkedList.java: 87 [INFO] --------------------------------------
+[2025-11-29 23:09:25,389] PolynomialLinkedList.java: 92 [INFO] 1. prevNode(), nextNode(3X^4)
+[2025-11-29 23:09:25,389] PolynomialLinkedList.java:101 [INFO] 3. fetch nextNode:9X^3
+[2025-11-29 23:09:25,389] PolynomialLinkedList.java: 92 [INFO] 1. prevNode(3X^4), nextNode(9X^3)
+[2025-11-29 23:09:25,389] PolynomialLinkedList.java:101 [INFO] 3. fetch nextNode:3X^2
+[2025-11-29 23:09:25,389] PolynomialLinkedList.java: 92 [INFO] 1. prevNode(9X^3), nextNode(3X^2)
+[2025-11-29 23:09:25,389] PolynomialLinkedList.java:101 [INFO] 3. fetch nextNode:7
+[2025-11-29 23:09:25,389] PolynomialLinkedList.java: 92 [INFO] 1. prevNode(3X^2), nextNode(7)
+[2025-11-29 23:09:25,389] PolynomialLinkedList.java:101 [INFO] 3. fetch nextNode:null
+[2025-11-29 23:09:25,389] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,390] PolynomialLinkedList.java:136 [INFO]   removeTerm: 1
+[2025-11-29 23:09:25,390] PolynomialLinkedList.java:138 [INFO]    termCount: 4
+[2025-11-29 23:09:25,390] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,390] PolynomialLinkedList.java:140 [INFO]    polyTerms: [3, 4][9, 3][3, 2][7, 0]
+[2025-11-29 23:09:25,390] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,390] PolynomialLinkedList.java: 85 [INFO] --------------------------------------
+[2025-11-29 23:09:25,390] PolynomialLinkedList.java: 86 [INFO]  removeNode: 3
+[2025-11-29 23:09:25,390] PolynomialLinkedList.java: 87 [INFO] --------------------------------------
+[2025-11-29 23:09:25,391] PolynomialLinkedList.java: 92 [INFO] 1. prevNode(), nextNode(3X^4)
+[2025-11-29 23:09:25,391] PolynomialLinkedList.java:101 [INFO] 3. fetch nextNode:9X^3
+[2025-11-29 23:09:25,391] PolynomialLinkedList.java: 92 [INFO] 1. prevNode(3X^4), nextNode(9X^3)
+[2025-11-29 23:09:25,391] PolynomialLinkedList.java: 94 [INFO] 2. removeNode(3) == nextNode(9X^3)
+[2025-11-29 23:09:25,391] PolynomialLinkedList.java: 95 [INFO]     +---> remove nextNode(9X^3)
+[2025-11-29 23:09:25,391] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,391] PolynomialLinkedList.java:136 [INFO]   removeTerm: 3
+[2025-11-29 23:09:25,391] PolynomialLinkedList.java:138 [INFO]    termCount: 3
+[2025-11-29 23:09:25,392] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,392] PolynomialLinkedList.java:140 [INFO]    polyTerms: [3, 4][3, 2][7, 0]
+[2025-11-29 23:09:25,392] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,392] PolynomialLinkedListTest.java: 39 [INFO] Final Poly: P(X) = 3X^4 + 3X^2 + 7
+[2025-11-29 23:09:25,402] PolynomialLinkedList.java: 31 [INFO] --------------------------------------
+[2025-11-29 23:09:25,402] PolynomialLinkedList.java: 32 [INFO]  newNode: 2X^4
+[2025-11-29 23:09:25,402] PolynomialLinkedList.java: 33 [INFO] --------------------------------------
+[2025-11-29 23:09:25,403] PolynomialLinkedList.java: 74 [INFO] 1. prevNode(null), nextNode(null)
+[2025-11-29 23:09:25,403] PolynomialLinkedList.java: 75 [INFO] 2. There is no term, termCount(0).
+[2025-11-29 23:09:25,403] PolynomialLinkedList.java: 76 [INFO]     +---> append newNode(2X^4) after head
+[2025-11-29 23:09:25,403] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,403] PolynomialLinkedList.java:134 [INFO]      addTerm: 2X^4
+[2025-11-29 23:09:25,403] PolynomialLinkedList.java:138 [INFO]    termCount: 1
+[2025-11-29 23:09:25,403] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,404] PolynomialLinkedList.java:140 [INFO]    polyTerms: [2, 4]
+[2025-11-29 23:09:25,404] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,404] PolynomialLinkedList.java: 31 [INFO] --------------------------------------
+[2025-11-29 23:09:25,404] PolynomialLinkedList.java: 32 [INFO]  newNode: 5X^3
+[2025-11-29 23:09:25,404] PolynomialLinkedList.java: 33 [INFO] --------------------------------------
+[2025-11-29 23:09:25,404] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(), nextNode(2X^4)
+[2025-11-29 23:09:25,405] PolynomialLinkedList.java: 57 [INFO] 2. newNode(5X^3) < nextNode(2X^4) and nextNode.getLink() is null
+[2025-11-29 23:09:25,405] PolynomialLinkedList.java: 58 [INFO]     +---> append after nextNode(2X^4), because it's last!
+[2025-11-29 23:09:25,405] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,405] PolynomialLinkedList.java:134 [INFO]      addTerm: 5X^3
+[2025-11-29 23:09:25,405] PolynomialLinkedList.java:138 [INFO]    termCount: 2
+[2025-11-29 23:09:25,406] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,406] PolynomialLinkedList.java:140 [INFO]    polyTerms: [2, 4][5, 3]
+[2025-11-29 23:09:25,406] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,406] PolynomialLinkedList.java: 31 [INFO] --------------------------------------
+[2025-11-29 23:09:25,406] PolynomialLinkedList.java: 32 [INFO]  newNode: 12X
+[2025-11-29 23:09:25,406] PolynomialLinkedList.java: 33 [INFO] --------------------------------------
+[2025-11-29 23:09:25,406] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(), nextNode(2X^4)
+[2025-11-29 23:09:25,406] PolynomialLinkedList.java: 65 [INFO] 3. fetch nextNode:5X^3
+[2025-11-29 23:09:25,406] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(2X^4), nextNode(5X^3)
+[2025-11-29 23:09:25,407] PolynomialLinkedList.java: 57 [INFO] 2. newNode(12X) < nextNode(5X^3) and nextNode.getLink() is null
+[2025-11-29 23:09:25,407] PolynomialLinkedList.java: 58 [INFO]     +---> append after nextNode(5X^3), because it's last!
+[2025-11-29 23:09:25,407] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,407] PolynomialLinkedList.java:134 [INFO]      addTerm: 12X
+[2025-11-29 23:09:25,407] PolynomialLinkedList.java:138 [INFO]    termCount: 3
+[2025-11-29 23:09:25,407] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,407] PolynomialLinkedList.java:140 [INFO]    polyTerms: [2, 4][5, 3][12, 1]
+[2025-11-29 23:09:25,408] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,408] PolynomialLinkedList.java: 31 [INFO] --------------------------------------
+[2025-11-29 23:09:25,408] PolynomialLinkedList.java: 32 [INFO]  newNode: 3
+[2025-11-29 23:09:25,408] PolynomialLinkedList.java: 33 [INFO] --------------------------------------
+[2025-11-29 23:09:25,411] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(), nextNode(2X^4)
+[2025-11-29 23:09:25,411] PolynomialLinkedList.java: 65 [INFO] 3. fetch nextNode:5X^3
+[2025-11-29 23:09:25,411] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(2X^4), nextNode(5X^3)
+[2025-11-29 23:09:25,413] PolynomialLinkedList.java: 65 [INFO] 3. fetch nextNode:12X
+[2025-11-29 23:09:25,413] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(5X^3), nextNode(12X)
+[2025-11-29 23:09:25,413] PolynomialLinkedList.java: 57 [INFO] 2. newNode(3) < nextNode(12X) and nextNode.getLink() is null
+[2025-11-29 23:09:25,413] PolynomialLinkedList.java: 58 [INFO]     +---> append after nextNode(12X), because it's last!
+[2025-11-29 23:09:25,413] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,413] PolynomialLinkedList.java:134 [INFO]      addTerm: 3
+[2025-11-29 23:09:25,414] PolynomialLinkedList.java:138 [INFO]    termCount: 4
+[2025-11-29 23:09:25,414] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,414] PolynomialLinkedList.java:140 [INFO]    polyTerms: [2, 4][5, 3][12, 1][3, 0]
+[2025-11-29 23:09:25,414] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,414] PolynomialLinkedListTest.java: 53 [INFO] Final Poly p2: P(X) = 2X^4 + 5X^3 + 12X + 3
+[2025-11-29 23:09:25,416] PolynomialLinkedList.java: 31 [INFO] --------------------------------------
+[2025-11-29 23:09:25,416] PolynomialLinkedList.java: 32 [INFO]  newNode: 3X^4
+[2025-11-29 23:09:25,416] PolynomialLinkedList.java: 33 [INFO] --------------------------------------
+[2025-11-29 23:09:25,416] PolynomialLinkedList.java: 74 [INFO] 1. prevNode(null), nextNode(null)
+[2025-11-29 23:09:25,416] PolynomialLinkedList.java: 75 [INFO] 2. There is no term, termCount(0).
+[2025-11-29 23:09:25,416] PolynomialLinkedList.java: 76 [INFO]     +---> append newNode(3X^4) after head
+[2025-11-29 23:09:25,416] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,416] PolynomialLinkedList.java:134 [INFO]      addTerm: 3X^4
+[2025-11-29 23:09:25,417] PolynomialLinkedList.java:138 [INFO]    termCount: 1
+[2025-11-29 23:09:25,417] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,417] PolynomialLinkedList.java:140 [INFO]    polyTerms: [3, 4]
+[2025-11-29 23:09:25,418] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,418] PolynomialLinkedList.java: 31 [INFO] --------------------------------------
+[2025-11-29 23:09:25,418] PolynomialLinkedList.java: 32 [INFO]  newNode: 3X^2
+[2025-11-29 23:09:25,418] PolynomialLinkedList.java: 33 [INFO] --------------------------------------
+[2025-11-29 23:09:25,418] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(), nextNode(3X^4)
+[2025-11-29 23:09:25,419] PolynomialLinkedList.java: 57 [INFO] 2. newNode(3X^2) < nextNode(3X^4) and nextNode.getLink() is null
+[2025-11-29 23:09:25,419] PolynomialLinkedList.java: 58 [INFO]     +---> append after nextNode(3X^4), because it's last!
+[2025-11-29 23:09:25,419] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,419] PolynomialLinkedList.java:134 [INFO]      addTerm: 3X^2
+[2025-11-29 23:09:25,419] PolynomialLinkedList.java:138 [INFO]    termCount: 2
+[2025-11-29 23:09:25,419] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,419] PolynomialLinkedList.java:140 [INFO]    polyTerms: [3, 4][3, 2]
+[2025-11-29 23:09:25,420] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,420] PolynomialLinkedList.java: 31 [INFO] --------------------------------------
+[2025-11-29 23:09:25,420] PolynomialLinkedList.java: 32 [INFO]  newNode: 7
+[2025-11-29 23:09:25,420] PolynomialLinkedList.java: 33 [INFO] --------------------------------------
+[2025-11-29 23:09:25,420] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(), nextNode(3X^4)
+[2025-11-29 23:09:25,420] PolynomialLinkedList.java: 65 [INFO] 3. fetch nextNode:3X^2
+[2025-11-29 23:09:25,420] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(3X^4), nextNode(3X^2)
+[2025-11-29 23:09:25,420] PolynomialLinkedList.java: 57 [INFO] 2. newNode(7) < nextNode(3X^2) and nextNode.getLink() is null
+[2025-11-29 23:09:25,420] PolynomialLinkedList.java: 58 [INFO]     +---> append after nextNode(3X^2), because it's last!
+[2025-11-29 23:09:25,421] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,421] PolynomialLinkedList.java:134 [INFO]      addTerm: 7
+[2025-11-29 23:09:25,421] PolynomialLinkedList.java:138 [INFO]    termCount: 3
+[2025-11-29 23:09:25,421] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,421] PolynomialLinkedList.java:140 [INFO]    polyTerms: [3, 4][3, 2][7, 0]
+[2025-11-29 23:09:25,421] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,421] PolynomialLinkedList.java: 31 [INFO] --------------------------------------
+[2025-11-29 23:09:25,421] PolynomialLinkedList.java: 32 [INFO]  newNode: 2X^4
+[2025-11-29 23:09:25,421] PolynomialLinkedList.java: 33 [INFO] --------------------------------------
+[2025-11-29 23:09:25,422] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(), nextNode(3X^4)
+[2025-11-29 23:09:25,422] PolynomialLinkedList.java: 49 [INFO] 2. newNode(2X^4) == nextNode(3X^4)
+[2025-11-29 23:09:25,422] PolynomialLinkedList.java: 50 [INFO]     +---> update nextNode(3X^4)
+[2025-11-29 23:09:25,422] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,422] PolynomialLinkedList.java:134 [INFO]      addTerm: 2X^4
+[2025-11-29 23:09:25,422] PolynomialLinkedList.java:138 [INFO]    termCount: 3
+[2025-11-29 23:09:25,422] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,422] PolynomialLinkedList.java:140 [INFO]    polyTerms: [5, 4][3, 2][7, 0]
+[2025-11-29 23:09:25,422] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,423] PolynomialLinkedList.java: 31 [INFO] --------------------------------------
+[2025-11-29 23:09:25,423] PolynomialLinkedList.java: 32 [INFO]  newNode: 5X^3
+[2025-11-29 23:09:25,423] PolynomialLinkedList.java: 33 [INFO] --------------------------------------
+[2025-11-29 23:09:25,423] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(), nextNode(5X^4)
+[2025-11-29 23:09:25,423] PolynomialLinkedList.java: 65 [INFO] 3. fetch nextNode:3X^2
+[2025-11-29 23:09:25,423] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(5X^4), nextNode(3X^2)
+[2025-11-29 23:09:25,423] PolynomialLinkedList.java: 41 [INFO] 2. newNode(5X^3) > nextNode(3X^2)
+[2025-11-29 23:09:25,423] PolynomialLinkedList.java: 42 [INFO]     +---> insert before nextNode(3X^2)
+[2025-11-29 23:09:25,423] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,423] PolynomialLinkedList.java:134 [INFO]      addTerm: 5X^3
+[2025-11-29 23:09:25,423] PolynomialLinkedList.java:138 [INFO]    termCount: 4
+[2025-11-29 23:09:25,423] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,423] PolynomialLinkedList.java:140 [INFO]    polyTerms: [5, 4][5, 3][3, 2][7, 0]
+[2025-11-29 23:09:25,424] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,424] PolynomialLinkedList.java: 31 [INFO] --------------------------------------
+[2025-11-29 23:09:25,424] PolynomialLinkedList.java: 32 [INFO]  newNode: 12X
+[2025-11-29 23:09:25,424] PolynomialLinkedList.java: 33 [INFO] --------------------------------------
+[2025-11-29 23:09:25,424] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(), nextNode(5X^4)
+[2025-11-29 23:09:25,424] PolynomialLinkedList.java: 65 [INFO] 3. fetch nextNode:5X^3
+[2025-11-29 23:09:25,424] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(5X^4), nextNode(5X^3)
+[2025-11-29 23:09:25,424] PolynomialLinkedList.java: 65 [INFO] 3. fetch nextNode:3X^2
+[2025-11-29 23:09:25,424] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(5X^3), nextNode(3X^2)
+[2025-11-29 23:09:25,425] PolynomialLinkedList.java: 65 [INFO] 3. fetch nextNode:7
+[2025-11-29 23:09:25,425] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(3X^2), nextNode(7)
+[2025-11-29 23:09:25,425] PolynomialLinkedList.java: 41 [INFO] 2. newNode(12X) > nextNode(7)
+[2025-11-29 23:09:25,425] PolynomialLinkedList.java: 42 [INFO]     +---> insert before nextNode(7)
+[2025-11-29 23:09:25,425] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,425] PolynomialLinkedList.java:134 [INFO]      addTerm: 12X
+[2025-11-29 23:09:25,425] PolynomialLinkedList.java:138 [INFO]    termCount: 5
+[2025-11-29 23:09:25,425] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,425] PolynomialLinkedList.java:140 [INFO]    polyTerms: [5, 4][5, 3][3, 2][12, 1][7, 0]
+[2025-11-29 23:09:25,426] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,426] PolynomialLinkedList.java: 31 [INFO] --------------------------------------
+[2025-11-29 23:09:25,426] PolynomialLinkedList.java: 32 [INFO]  newNode: 3
+[2025-11-29 23:09:25,426] PolynomialLinkedList.java: 33 [INFO] --------------------------------------
+[2025-11-29 23:09:25,426] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(), nextNode(5X^4)
+[2025-11-29 23:09:25,426] PolynomialLinkedList.java: 65 [INFO] 3. fetch nextNode:5X^3
+[2025-11-29 23:09:25,426] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(5X^4), nextNode(5X^3)
+[2025-11-29 23:09:25,426] PolynomialLinkedList.java: 65 [INFO] 3. fetch nextNode:3X^2
+[2025-11-29 23:09:25,426] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(5X^3), nextNode(3X^2)
+[2025-11-29 23:09:25,426] PolynomialLinkedList.java: 65 [INFO] 3. fetch nextNode:12X
+[2025-11-29 23:09:25,426] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(3X^2), nextNode(12X)
+[2025-11-29 23:09:25,427] PolynomialLinkedList.java: 65 [INFO] 3. fetch nextNode:7
+[2025-11-29 23:09:25,427] PolynomialLinkedList.java: 38 [INFO] 1. prevNode(12X), nextNode(7)
+[2025-11-29 23:09:25,427] PolynomialLinkedList.java: 49 [INFO] 2. newNode(3) == nextNode(7)
+[2025-11-29 23:09:25,427] PolynomialLinkedList.java: 50 [INFO]     +---> update nextNode(7)
+[2025-11-29 23:09:25,427] PolynomialLinkedList.java:131 [INFO] +Summarization of new Poly------------
+[2025-11-29 23:09:25,427] PolynomialLinkedList.java:134 [INFO]      addTerm: 3
+[2025-11-29 23:09:25,427] PolynomialLinkedList.java:138 [INFO]    termCount: 5
+[2025-11-29 23:09:25,427] PolynomialLinkedList.java:139 [INFO]       degree: 4
+[2025-11-29 23:09:25,427] PolynomialLinkedList.java:140 [INFO]    polyTerms: [5, 4][5, 3][3, 2][12, 1][10, 0]
+[2025-11-29 23:09:25,427] PolynomialLinkedList.java:141 [INFO] --------------------------------------
+
+[2025-11-29 23:09:25,427] PolynomialLinkedListTest.java: 60 [INFO]     p1 --> P(X) = 3X^4 + 3X^2 + 7
+[2025-11-29 23:09:25,427] PolynomialLinkedListTest.java: 61 [INFO]     p2 --> P(X) = 2X^4 + 5X^3 + 12X + 3
+[2025-11-29 23:09:25,427] PolynomialLinkedListTest.java: 62 [INFO]  p1+p2 --> P(X) = 5X^4 + 5X^3 + 3X^2 + 12X + 10
+[2025-11-29 23:36:04,159] StackLinearListStringTest.java: 22 [INFO] Before All
+[2025-11-29 23:36:04,162] StackLinearList.java: 26 [INFO]  ## create Stack(5), the Stack is
+[2025-11-29 23:36:04,162] StackLinearList.java: 27 [INFO]       maxSize : 5
+[2025-11-29 23:36:04,163] StackLinearList.java: 28 [INFO]       curSize : 0
+[2025-11-29 23:36:04,169] StackLinearListStringTest.java: 39 [INFO] [testCase00] getCurSize() -> 0
+[2025-11-29 23:36:04,172] StackLinearListStringTest.java: 34 [INFO] 
+       +----------------+
+ 0 --> |           null |  <-- top
+       +----------------+
+
+[2025-11-29 23:36:04,180] StackLinearListStringTest.java: 46 [INFO] [testCase01] push() & peek() -> top: 1st Node
+[2025-11-29 23:36:04,181] StackLinearList.java: 39 [INFO]  ## push(1st Node), the Stack is
+[2025-11-29 23:36:04,181] StackLinearList.java: 58 [INFO]  ## peek() --> 1st Node, the Stack is
+[2025-11-29 23:36:04,182] StackLinearListStringTest.java: 34 [INFO] 
+       +----------------+
+ 1 --> |       1st Node |  <-- top
+       +----------------+
+
+[2025-11-29 23:36:04,183] StackLinearListStringTest.java: 57 [INFO] [testCase02] push() & getCuSize() -> 2
+[2025-11-29 23:36:04,183] StackLinearList.java: 39 [INFO]  ## push(2nd Node), the Stack is
+[2025-11-29 23:36:04,183] StackLinearListStringTest.java: 34 [INFO] 
+       +----------------+
+ 2 --> |       2nd Node |  <-- top
+       +----------------+
+       +----------------+
+ 1 --> |       1st Node | 
+       +----------------+
+
+[2025-11-29 23:36:04,184] StackLinearListStringTest.java: 68 [INFO] [testCase03] pop() & getData() -> data: 2nd Node
+[2025-11-29 23:36:04,184] StackLinearList.java: 49 [INFO]  ## pop() --> 2nd Node, the Stack is
+[2025-11-29 23:36:04,184] StackLinearListStringTest.java: 34 [INFO] 
+       +----------------+
+ 1 --> |       1st Node |  <-- top
+       +----------------+
+
+[2025-11-29 23:36:04,186] StackLinearListStringTest.java: 79 [INFO] [testCase04] peek() -> top: 1st Node
+[2025-11-29 23:36:04,186] StackLinearList.java: 58 [INFO]  ## peek() --> 1st Node, the Stack is
+[2025-11-29 23:36:04,187] StackLinearListStringTest.java: 34 [INFO] 
+       +----------------+
+ 1 --> |       1st Node |  <-- top
+       +----------------+
+
+[2025-11-29 23:36:04,187] StackLinearListStringTest.java: 89 [INFO] [testCase05] pop() & getData() -> data: 1st Node
+[2025-11-29 23:36:04,188] StackLinearList.java: 49 [INFO]  ## pop() --> 1st Node, the Stack is
+[2025-11-29 23:36:04,188] StackLinearListStringTest.java: 34 [INFO] 
+       +----------------+
+ 0 --> |           null |  <-- top
+       +----------------+
+
+[2025-11-29 23:36:04,189] StackLinearListStringTest.java:100 [INFO] [testCase06] pop() & isEmpty -> true
+[2025-11-29 23:36:04,189] StackLinearListStringTest.java:104 [WARN] 스택이 비어 있어 삭제(pop)할 수 없습니다.
+[2025-11-29 23:36:04,189] StackLinearListStringTest.java: 34 [INFO] 
+       +----------------+
+ 0 --> |           null |  <-- top
+       +----------------+
+
+[2025-11-29 23:36:04,191] StackLinearListStringTest.java: 28 [INFO] After All
+[2025-11-29 23:47:42,514] StackLinearListStringTest.java: 22 [INFO] Before All
+[2025-11-29 23:47:42,516] StackLinearList.java: 26 [INFO]  ## create Stack(5), the Stack is
+[2025-11-29 23:47:42,517] StackLinearList.java: 27 [INFO]       maxSize : 5
+[2025-11-29 23:47:42,517] StackLinearList.java: 28 [INFO]       curSize : 0
+[2025-11-29 23:47:42,524] StackLinearListStringTest.java: 39 [INFO] [testCase00] getCurSize() -> 0
+[2025-11-29 23:47:42,530] StackLinearListStringTest.java: 34 [INFO] 
+       +----------------+
+ 0 --> |           null |  <-- top
+       +----------------+
+
+[2025-11-29 23:47:42,538] StackLinearListStringTest.java: 46 [INFO] [testCase01] push() & peek() -> top: 1st Node
+[2025-11-29 23:47:42,539] StackLinearList.java: 39 [INFO]  ## push(1st Node), the Stack is
+[2025-11-29 23:47:42,539] StackLinearList.java: 58 [INFO]  ## peek() --> 1st Node, the Stack is
+[2025-11-29 23:47:42,540] StackLinearListStringTest.java: 34 [INFO] 
+       +----------------+
+ 1 --> |       1st Node |  <-- top
+       +----------------+
+
+[2025-11-29 23:47:42,541] StackLinearListStringTest.java: 57 [INFO] [testCase02] push() & getCuSize() -> 2
+[2025-11-29 23:47:42,541] StackLinearList.java: 39 [INFO]  ## push(2nd Node), the Stack is
+[2025-11-29 23:47:42,541] StackLinearListStringTest.java: 34 [INFO] 
+       +----------------+
+ 2 --> |       2nd Node |  <-- top
+       +----------------+
+       +----------------+
+ 1 --> |       1st Node | 
+       +----------------+
+
+[2025-11-29 23:47:42,542] StackLinearListStringTest.java: 68 [INFO] [testCase03] pop() & getData() -> data: 2nd Node
+[2025-11-29 23:47:42,542] StackLinearList.java: 49 [INFO]  ## pop() --> 2nd Node, the Stack is
+[2025-11-29 23:47:42,543] StackLinearListStringTest.java: 34 [INFO] 
+       +----------------+
+ 1 --> |       1st Node |  <-- top
+       +----------------+
+
+[2025-11-29 23:47:42,544] StackLinearListStringTest.java: 79 [INFO] [testCase04] peek() -> top: 1st Node
+[2025-11-29 23:47:42,544] StackLinearList.java: 58 [INFO]  ## peek() --> 1st Node, the Stack is
+[2025-11-29 23:47:42,544] StackLinearListStringTest.java: 34 [INFO] 
+       +----------------+
+ 1 --> |       1st Node |  <-- top
+       +----------------+
+
+[2025-11-29 23:47:42,545] StackLinearListStringTest.java: 89 [INFO] [testCase05] pop() & getData() -> data: 1st Node
+[2025-11-29 23:47:42,545] StackLinearList.java: 49 [INFO]  ## pop() --> 1st Node, the Stack is
+[2025-11-29 23:47:42,545] StackLinearListStringTest.java: 34 [INFO] 
+       +----------------+
+ 0 --> |           null |  <-- top
+       +----------------+
+
+[2025-11-29 23:47:42,547] StackLinearListStringTest.java:100 [INFO] [testCase06] pop() & isEmpty -> true
+[2025-11-29 23:47:42,547] StackLinearListStringTest.java:104 [WARN] 스택이 비어 있어 삭제(pop)할 수 없습니다.
+[2025-11-29 23:47:42,547] StackLinearListStringTest.java: 34 [INFO] 
+       +----------------+
+ 0 --> |           null |  <-- top
+       +----------------+
+
+[2025-11-29 23:47:42,549] StackLinearListStringTest.java: 28 [INFO] After All
+[2025-11-29 23:47:48,062] StackLinkedListStringTest.java: 22 [INFO] Before All
+[2025-11-29 23:47:48,064] StackLinkedList.java: 22 [INFO]  ## create Stack(5), the Stack is
+[2025-11-29 23:47:48,065] StackLinkedList.java: 23 [INFO]       maxSize : 5
+[2025-11-29 23:47:48,065] StackLinkedList.java: 24 [INFO]       curSize : 0
+[2025-11-29 23:47:48,071] StackLinkedListStringTest.java: 39 [INFO] [testCase00] getCurSize() -> 0
+[2025-11-29 23:47:48,075] StackLinkedListStringTest.java: 34 [INFO] 
+       +----------------+
+ 0 --> |           null |  <-- top
+       +----------------+
+
+[2025-11-29 23:47:48,083] StackLinkedListStringTest.java: 46 [INFO] [testCase01] push() & peek() -> top: 1st Node
+[2025-11-29 23:47:48,083] StackLinkedList.java: 34 [INFO]  ## push(1st Node), the Stack is
+[2025-11-29 23:47:48,083] StackLinkedList.java: 53 [INFO]  ## peek() --> 1st Node, the Stack is
+[2025-11-29 23:47:48,085] StackLinkedListStringTest.java: 34 [INFO] 
+       +----------------+
+ 1 --> |       1st Node |  <-- top
+       +----------------+
+
+[2025-11-29 23:47:48,086] StackLinkedListStringTest.java: 57 [INFO] [testCase02] push() & getCuSize() -> 2
+[2025-11-29 23:47:48,086] StackLinkedList.java: 34 [INFO]  ## push(2nd Node), the Stack is
+[2025-11-29 23:47:48,086] StackLinkedListStringTest.java: 34 [INFO] 
+       +----------------+
+ 2 --> |       2nd Node |  <-- top
+       +----------------+
+       +----------------+
+ 1 --> |       1st Node | 
+       +----------------+
+
+[2025-11-29 23:47:48,087] StackLinkedListStringTest.java: 68 [INFO] [testCase03] pop() & getData() -> data: 2nd Node
+[2025-11-29 23:47:48,087] StackLinkedList.java: 44 [INFO]  ## pop() --> 2nd Node, the Stack is
+[2025-11-29 23:47:48,088] StackLinkedListStringTest.java: 34 [INFO] 
+       +----------------+
+ 1 --> |       1st Node |  <-- top
+       +----------------+
+
+[2025-11-29 23:47:48,089] StackLinkedListStringTest.java: 79 [INFO] [testCase04] peek() -> top: 1st Node
+[2025-11-29 23:47:48,089] StackLinkedList.java: 53 [INFO]  ## peek() --> 1st Node, the Stack is
+[2025-11-29 23:47:48,089] StackLinkedListStringTest.java: 34 [INFO] 
+       +----------------+
+ 1 --> |       1st Node |  <-- top
+       +----------------+
+
+[2025-11-29 23:47:48,090] StackLinkedListStringTest.java: 89 [INFO] [testCase05] pop() & getData() -> data: 1st Node
+[2025-11-29 23:47:48,090] StackLinkedList.java: 44 [INFO]  ## pop() --> 1st Node, the Stack is
+[2025-11-29 23:47:48,091] StackLinkedListStringTest.java: 34 [INFO] 
+       +----------------+
+ 0 --> |           null |  <-- top
+       +----------------+
+
+[2025-11-29 23:47:48,091] StackLinkedListStringTest.java:100 [INFO] [testCase06] pop() & isEmpty -> true
+[2025-11-29 23:47:48,091] StackLinkedListStringTest.java:104 [WARN] 스택이 비어 있어 삭제(pop)할 수 없습니다.
+[2025-11-29 23:47:48,092] StackLinkedListStringTest.java: 34 [INFO] 
+       +----------------+
+ 0 --> |           null |  <-- top
+       +----------------+
+
+[2025-11-29 23:47:48,093] StackLinkedListStringTest.java: 28 [INFO] After All
+[2025-11-29 23:50:41,353] QueueLinearList.java: 34 [INFO]  ## create Queue(5), the Queue is
+[2025-11-29 23:50:41,355] QueueLinearList.java: 35 [INFO]       maxSize : 5
+[2025-11-29 23:50:41,355] QueueLinearList.java: 36 [INFO]       curSize : 0
+[2025-11-29 23:50:41,356] QueueLinearList.java: 37 [INFO]         front : 0
+[2025-11-29 23:50:41,356] QueueLinearList.java: 38 [INFO]          rear : 0
+
+[2025-11-29 23:50:41,356] QueueCircularListStringTest.java: 19 [INFO] 
+          +----------------+
+ front--> |           null | 0, <-- rear
+          +----------------+
+          |           null | 1
+          +----------------+
+          |           null | 2
+          +----------------+
+          |           null | 3
+          +----------------+
+          |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:41,363] QueueCircularList.java: 28 [INFO]  ## enQueue(Node(1)), the Queue is
+[2025-11-29 23:50:41,363] QueueCircularListStringTest.java: 32 [INFO] 
+          +----------------+
+ front--> |        Node(1) | 0
+          +----------------+
+ rear --> |           null | 1
+          +----------------+
+          |           null | 2
+          +----------------+
+          |           null | 3
+          +----------------+
+          |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:41,364] QueueCircularList.java: 28 [INFO]  ## enQueue(Node(2)), the Queue is
+[2025-11-29 23:50:41,364] QueueCircularListStringTest.java: 32 [INFO] 
+          +----------------+
+ front--> |        Node(1) | 0
+          +----------------+
+          |        Node(2) | 1
+          +----------------+
+ rear --> |           null | 2
+          +----------------+
+          |           null | 3
+          +----------------+
+          |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:41,364] QueueCircularList.java: 28 [INFO]  ## enQueue(Node(3)), the Queue is
+[2025-11-29 23:50:41,365] QueueCircularListStringTest.java: 32 [INFO] 
+          +----------------+
+ front--> |        Node(1) | 0
+          +----------------+
+          |        Node(2) | 1
+          +----------------+
+          |        Node(3) | 2
+          +----------------+
+ rear --> |           null | 3
+          +----------------+
+          |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:41,365] QueueCircularList.java: 28 [INFO]  ## enQueue(Node(4)), the Queue is
+[2025-11-29 23:50:41,365] QueueCircularListStringTest.java: 32 [INFO] 
+          +----------------+
+ front--> |        Node(1) | 0
+          +----------------+
+          |        Node(2) | 1
+          +----------------+
+          |        Node(3) | 2
+          +----------------+
+          |        Node(4) | 3
+          +----------------+
+ rear --> |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:41,366] QueueCircularListStringTest.java: 35 [WARN] 큐가 가득 찼습니다. 노드(Node(5)) 추가 실패.
+[2025-11-29 23:50:41,366] QueueCircularListStringTest.java: 36 [INFO] 
+          +----------------+
+ front--> |        Node(1) | 0
+          +----------------+
+          |        Node(2) | 1
+          +----------------+
+          |        Node(3) | 2
+          +----------------+
+          |        Node(4) | 3
+          +----------------+
+ rear --> |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:41,375] QueueCircularList.java: 41 [INFO]  ## deQueue(Node(1)), the Queue is
+[2025-11-29 23:50:41,376] QueueCircularListStringTest.java: 45 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+ front--> |        Node(2) | 1
+          +----------------+
+          |        Node(3) | 2
+          +----------------+
+          |        Node(4) | 3
+          +----------------+
+ rear --> |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:41,376] QueueCircularList.java: 41 [INFO]  ## deQueue(Node(2)), the Queue is
+[2025-11-29 23:50:41,376] QueueCircularListStringTest.java: 45 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+          |           null | 1
+          +----------------+
+ front--> |        Node(3) | 2
+          +----------------+
+          |        Node(4) | 3
+          +----------------+
+ rear --> |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:41,376] QueueCircularList.java: 41 [INFO]  ## deQueue(Node(3)), the Queue is
+[2025-11-29 23:50:41,377] QueueCircularListStringTest.java: 45 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+          |           null | 1
+          +----------------+
+          |           null | 2
+          +----------------+
+ front--> |        Node(4) | 3
+          +----------------+
+ rear --> |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:41,377] QueueCircularList.java: 41 [INFO]  ## deQueue(Node(4)), the Queue is
+[2025-11-29 23:50:41,377] QueueCircularListStringTest.java: 45 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+          |           null | 1
+          +----------------+
+          |           null | 2
+          +----------------+
+          |           null | 3
+          +----------------+
+ front--> |           null | 4, <-- rear
+          +----------------+
+
+[2025-11-29 23:50:41,377] QueueCircularListStringTest.java: 48 [WARN] 큐가 비었습니다.
+[2025-11-29 23:50:41,377] QueueCircularListStringTest.java: 49 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+          |           null | 1
+          +----------------+
+          |           null | 2
+          +----------------+
+          |           null | 3
+          +----------------+
+ front--> |           null | 4, <-- rear
+          +----------------+
+
+[2025-11-29 23:50:41,379] QueueCircularList.java: 28 [INFO]  ## enQueue(Node(5)), the Queue is
+[2025-11-29 23:50:41,379] QueueCircularListStringTest.java: 58 [INFO] 
+          +----------------+
+ rear --> |           null | 0
+          +----------------+
+          |           null | 1
+          +----------------+
+          |           null | 2
+          +----------------+
+          |           null | 3
+          +----------------+
+ front--> |        Node(5) | 4
+          +----------------+
+
+[2025-11-29 23:50:41,379] QueueCircularList.java: 28 [INFO]  ## enQueue(Node(6)), the Queue is
+[2025-11-29 23:50:41,379] QueueCircularListStringTest.java: 58 [INFO] 
+          +----------------+
+          |        Node(6) | 0
+          +----------------+
+ rear --> |           null | 1
+          +----------------+
+          |           null | 2
+          +----------------+
+          |           null | 3
+          +----------------+
+ front--> |        Node(5) | 4
+          +----------------+
+
+[2025-11-29 23:50:41,379] QueueCircularList.java: 28 [INFO]  ## enQueue(Node(7)), the Queue is
+[2025-11-29 23:50:41,380] QueueCircularListStringTest.java: 58 [INFO] 
+          +----------------+
+          |        Node(6) | 0
+          +----------------+
+          |        Node(7) | 1
+          +----------------+
+ rear --> |           null | 2
+          +----------------+
+          |           null | 3
+          +----------------+
+ front--> |        Node(5) | 4
+          +----------------+
+
+[2025-11-29 23:50:41,380] QueueCircularList.java: 28 [INFO]  ## enQueue(Node(8)), the Queue is
+[2025-11-29 23:50:41,380] QueueCircularListStringTest.java: 58 [INFO] 
+          +----------------+
+          |        Node(6) | 0
+          +----------------+
+          |        Node(7) | 1
+          +----------------+
+          |        Node(8) | 2
+          +----------------+
+ rear --> |           null | 3
+          +----------------+
+ front--> |        Node(5) | 4
+          +----------------+
+
+[2025-11-29 23:50:41,380] QueueCircularListStringTest.java: 61 [WARN] 큐가 가득 찼습니다. 노드(Node(9)) 추가 실패.
+[2025-11-29 23:50:41,381] QueueCircularListStringTest.java: 62 [INFO] 
+          +----------------+
+          |        Node(6) | 0
+          +----------------+
+          |        Node(7) | 1
+          +----------------+
+          |        Node(8) | 2
+          +----------------+
+ rear --> |           null | 3
+          +----------------+
+ front--> |        Node(5) | 4
+          +----------------+
+
+[2025-11-29 23:50:41,382] QueueCircularList.java: 41 [INFO]  ## deQueue(Node(5)), the Queue is
+[2025-11-29 23:50:41,382] QueueCircularListStringTest.java: 71 [INFO] 
+          +----------------+
+ front--> |        Node(6) | 0
+          +----------------+
+          |        Node(7) | 1
+          +----------------+
+          |        Node(8) | 2
+          +----------------+
+ rear --> |           null | 3
+          +----------------+
+          |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:41,382] QueueCircularList.java: 41 [INFO]  ## deQueue(Node(6)), the Queue is
+[2025-11-29 23:50:41,382] QueueCircularListStringTest.java: 71 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+ front--> |        Node(7) | 1
+          +----------------+
+          |        Node(8) | 2
+          +----------------+
+ rear --> |           null | 3
+          +----------------+
+          |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:41,382] QueueCircularList.java: 41 [INFO]  ## deQueue(Node(7)), the Queue is
+[2025-11-29 23:50:41,383] QueueCircularListStringTest.java: 71 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+          |           null | 1
+          +----------------+
+ front--> |        Node(8) | 2
+          +----------------+
+ rear --> |           null | 3
+          +----------------+
+          |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:41,383] QueueCircularList.java: 41 [INFO]  ## deQueue(Node(8)), the Queue is
+[2025-11-29 23:50:41,383] QueueCircularListStringTest.java: 71 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+          |           null | 1
+          +----------------+
+          |           null | 2
+          +----------------+
+ front--> |           null | 3, <-- rear
+          +----------------+
+          |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:41,383] QueueCircularListStringTest.java: 74 [WARN] 큐가 비었습니다.
+[2025-11-29 23:50:41,383] QueueCircularListStringTest.java: 75 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+          |           null | 1
+          +----------------+
+          |           null | 2
+          +----------------+
+ front--> |           null | 3, <-- rear
+          +----------------+
+          |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:49,609] QueueLinearList.java: 34 [INFO]  ## create Queue(5), the Queue is
+[2025-11-29 23:50:49,611] QueueLinearList.java: 35 [INFO]       maxSize : 5
+[2025-11-29 23:50:49,611] QueueLinearList.java: 36 [INFO]       curSize : 0
+[2025-11-29 23:50:49,611] QueueLinearList.java: 37 [INFO]         front : 0
+[2025-11-29 23:50:49,613] QueueLinearList.java: 38 [INFO]          rear : 0
+
+[2025-11-29 23:50:49,619] QueueLinearListStringTest.java: 29 [INFO] 
+          +----------------+
+ front--> |           null | 0, <-- rear
+          +----------------+
+          |           null | 1
+          +----------------+
+          |           null | 2
+          +----------------+
+          |           null | 3
+          +----------------+
+          |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:49,619] QueueLinearList.java: 50 [INFO]  ## enQueue(1st Node), the Queue is
+[2025-11-29 23:50:49,620] QueueLinearListStringTest.java: 31 [INFO] 
+          +----------------+
+ front--> |       1st Node | 0
+          +----------------+
+ rear --> |           null | 1
+          +----------------+
+          |           null | 2
+          +----------------+
+          |           null | 3
+          +----------------+
+          |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:49,620] QueueLinearList.java: 50 [INFO]  ## enQueue(2nd Node), the Queue is
+[2025-11-29 23:50:49,620] QueueLinearListStringTest.java: 33 [INFO] 
+          +----------------+
+ front--> |       1st Node | 0
+          +----------------+
+          |       2nd Node | 1
+          +----------------+
+ rear --> |           null | 2
+          +----------------+
+          |           null | 3
+          +----------------+
+          |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:49,620] QueueLinearList.java: 63 [INFO]  ## deQueue(1st Node), the Queue is
+[2025-11-29 23:50:49,621] QueueLinearListStringTest.java: 35 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+ front--> |       2nd Node | 1
+          +----------------+
+ rear --> |           null | 2
+          +----------------+
+          |           null | 3
+          +----------------+
+          |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:49,621] QueueLinearList.java: 50 [INFO]  ## enQueue(3rd Node), the Queue is
+[2025-11-29 23:50:49,621] QueueLinearListStringTest.java: 37 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+ front--> |       2nd Node | 1
+          +----------------+
+          |       3rd Node | 2
+          +----------------+
+ rear --> |           null | 3
+          +----------------+
+          |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:49,622] QueueLinearList.java: 50 [INFO]  ## enQueue(4th Node), the Queue is
+[2025-11-29 23:50:49,622] QueueLinearListStringTest.java: 39 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+ front--> |       2nd Node | 1
+          +----------------+
+          |       3rd Node | 2
+          +----------------+
+          |       4th Node | 3
+          +----------------+
+ rear --> |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:49,622] QueueLinearList.java: 72 [INFO]  ## getFront() --> 2nd Node, the Queue is
+[2025-11-29 23:50:49,622] QueueLinearListStringTest.java: 42 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+ front--> |       2nd Node | 1
+          +----------------+
+          |       3rd Node | 2
+          +----------------+
+          |       4th Node | 3
+          +----------------+
+ rear --> |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:49,623] QueueLinearList.java: 63 [INFO]  ## deQueue(2nd Node), the Queue is
+[2025-11-29 23:50:49,623] QueueLinearListStringTest.java: 46 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+          |           null | 1
+          +----------------+
+ front--> |       3rd Node | 2
+          +----------------+
+          |       4th Node | 3
+          +----------------+
+ rear --> |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:49,623] QueueLinearList.java: 63 [INFO]  ## deQueue(3rd Node), the Queue is
+[2025-11-29 23:50:49,623] QueueLinearListStringTest.java: 46 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+          |           null | 1
+          +----------------+
+          |           null | 2
+          +----------------+
+ front--> |       4th Node | 3
+          +----------------+
+ rear --> |           null | 4
+          +----------------+
+
+[2025-11-29 23:50:49,623] QueueLinearList.java: 63 [INFO]  ## deQueue(4th Node), the Queue is
+[2025-11-29 23:50:49,623] QueueLinearListStringTest.java: 46 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+          |           null | 1
+          +----------------+
+          |           null | 2
+          +----------------+
+          |           null | 3
+          +----------------+
+ front--> |           null | 4, <-- rear
+          +----------------+
+
+[2025-11-29 23:50:49,625] QueueLinearListStringTest.java: 49 [WARN] 큐가 비었습니다.
+[2025-11-29 23:50:49,633] QueueLinearList.java: 50 [INFO]  ## enQueue(5th Node), the Queue is
+[2025-11-29 23:50:49,633] QueueLinearListStringTest.java: 58 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+          |           null | 1
+          +----------------+
+          |           null | 2
+          +----------------+
+          |           null | 3
+          +----------------+
+ front--> |       5th Node | 4
+          +----------------+
+          |over the maxSize| 5 	 <-- rear
+          +----------------+
+
+[2025-11-29 23:50:49,634] QueueLinearListStringTest.java: 61 [WARN] 큐가 가득 찼습니다. 노드(6th Node) 추가 실패.
+[2025-11-29 23:50:49,636] QueueLinearList.java: 63 [INFO]  ## deQueue(5th Node), the Queue is
+[2025-11-29 23:50:49,636] QueueLinearListStringTest.java: 69 [INFO] 
+          +----------------+
+          |           null | 0
+          +----------------+
+          |           null | 1
+          +----------------+
+          |           null | 2
+          +----------------+
+          |           null | 3
+          +----------------+
+          |           null | 4
+          +----------------+
+ front--> |over the maxSize| 5 	 <-- rear
+          +----------------+
+
+[2025-11-29 23:50:49,636] QueueLinearListStringTest.java: 74 [WARN] 큐가 비었습니다.
+[2025-11-29 23:55:40,968] BinarySearchTreeCharTest.java: 16 [INFO] Before All
+[2025-11-29 23:55:40,976] BinarySearchTreeCharTest.java: 28 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,976] BinarySearchTreeCharTest.java: 29 [INFO] * Test Case 0 : 이진탐색트리 자료구조 생성 
+[2025-11-29 23:55:40,977] BinarySearchTreeCharTest.java: 30 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,977] BinarySearchTreeCharTest.java: 33 [INFO]   BinarySearchTree is created.
+[2025-11-29 23:55:40,978] BinarySearchTreeCharTest.java: 34 [INFO]     height: -1
+[2025-11-29 23:55:40,978] BinarySearchTreeCharTest.java: 35 [INFO]     degree: -1
+[2025-11-29 23:55:40,978] BinarySearchTreeCharTest.java: 36 [INFO]      nodes: 0
+[2025-11-29 23:55:40,986] BinarySearchTreeCharTest.java: 54 [INFO] 
+
+--------------------------------------------
+[2025-11-29 23:55:40,986] BinarySearchTreeCharTest.java: 55 [INFO] * Test Case 1 : 이진탐색트리에 노드 추가  
+[2025-11-29 23:55:40,986] BinarySearchTreeCharTest.java: 56 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,987] BinarySearchTreeCharTest.java: 68 [INFO] {I,F, C, D, H, A, G, K, L, J}
+[2025-11-29 23:55:40,987] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,989] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:40,989] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,989] BinarySearchTree.java:315 [INFO]   +     height : 3
+[2025-11-29 23:55:40,989] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:40,989] BinarySearchTree.java:317 [INFO]   +      nodes : 10
+[2025-11-29 23:55:40,990] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:40,990] BinarySearchTree.java:324 [INFO]                         I(1)                                                                                                                                                                                
+[2025-11-29 23:55:40,990] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:40,990] BinarySearchTree.java:324 [INFO]             F(2)                    K(3)                                                                                                                                                                        
+[2025-11-29 23:55:40,991] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:40,991] BinarySearchTree.java:324 [INFO]       C(4)        H(5)        J(6)        L(7)                                                                                                                                                                          
+[2025-11-29 23:55:40,991] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:40,991] BinarySearchTree.java:324 [INFO]    A(8)  D(9)  G(10)                                                                                                                                                                                                 
+[2025-11-29 23:55:40,992] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:40,992] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:40,992] BinarySearchTree.java:334 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,992] BinarySearchTree.java:335 [INFO] * 트리 순회
+[2025-11-29 23:55:40,992] BinarySearchTree.java:336 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,992] BinarySearchTree.java:337 [INFO]   + preOrder   --> I F C A D H G K J L 
+[2025-11-29 23:55:40,992] BinarySearchTree.java:341 [INFO]   + inOrder    --> A C D F G H I J K L 
+[2025-11-29 23:55:40,993] BinarySearchTree.java:345 [INFO]   + postOrder  --> A D C G H F J L K I 
+[2025-11-29 23:55:40,993] BinarySearchTree.java:346 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,994] BinarySearchTreeCharTest.java: 76 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,994] BinarySearchTreeCharTest.java: 77 [INFO] * Test Case 2 : 단말(left child) A의 삭제
+[2025-11-29 23:55:40,994] BinarySearchTreeCharTest.java: 78 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,994] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,994] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:40,995] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,995] BinarySearchTree.java:315 [INFO]   +     height : 3
+[2025-11-29 23:55:40,995] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:40,995] BinarySearchTree.java:317 [INFO]   +      nodes : 10
+[2025-11-29 23:55:40,995] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:40,995] BinarySearchTree.java:324 [INFO]                         I(1)                                                                                                                                                                                
+[2025-11-29 23:55:40,996] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:40,996] BinarySearchTree.java:324 [INFO]             F(2)                    K(3)                                                                                                                                                                        
+[2025-11-29 23:55:40,996] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:40,996] BinarySearchTree.java:324 [INFO]       C(4)        H(5)        J(6)        L(7)                                                                                                                                                                          
+[2025-11-29 23:55:40,996] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:40,996] BinarySearchTree.java:324 [INFO]    A(8)  D(9)  G(10)                                                                                                                                                                                                 
+[2025-11-29 23:55:40,996] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:40,997] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:40,997] BinarySearchTree.java:108 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,997] BinarySearchTree.java:109 [INFO] * 노드 삭제
+[2025-11-29 23:55:40,997] BinarySearchTree.java:110 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,997] BinarySearchTree.java:111 [INFO]   + predecessor : C
+[2025-11-29 23:55:40,997] BinarySearchTree.java:112 [INFO]   +     deleted : A
+[2025-11-29 23:55:40,997] BinarySearchTree.java:113 [INFO]   +   successor : A
+[2025-11-29 23:55:40,997] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,998] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:40,998] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:40,998] BinarySearchTree.java:315 [INFO]   +     height : 3
+[2025-11-29 23:55:40,998] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:40,998] BinarySearchTree.java:317 [INFO]   +      nodes : 9
+[2025-11-29 23:55:40,998] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:40,999] BinarySearchTree.java:324 [INFO]                         I(1)                                                                                                                                                                                
+[2025-11-29 23:55:40,999] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:40,999] BinarySearchTree.java:324 [INFO]             F(2)                    K(3)                                                                                                                                                                        
+[2025-11-29 23:55:40,999] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:40,999] BinarySearchTree.java:324 [INFO]       C(4)        H(5)        J(6)        L(7)                                                                                                                                                                          
+[2025-11-29 23:55:40,999] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:40,999] BinarySearchTree.java:324 [INFO]          D(9)  G(10)                                                                                                                                                                                             
+[2025-11-29 23:55:41,000] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,000] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,000] BinarySearchTree.java:334 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,000] BinarySearchTree.java:335 [INFO] * 트리 순회
+[2025-11-29 23:55:41,000] BinarySearchTree.java:336 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,000] BinarySearchTree.java:337 [INFO]   + preOrder   --> I F C D H G K J L 
+[2025-11-29 23:55:41,000] BinarySearchTree.java:341 [INFO]   + inOrder    --> C D F G H I J K L 
+[2025-11-29 23:55:41,004] BinarySearchTree.java:345 [INFO]   + postOrder  --> D C G H F J L K I 
+[2025-11-29 23:55:41,004] BinarySearchTree.java:346 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,005] BinarySearchTreeCharTest.java: 87 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,005] BinarySearchTreeCharTest.java: 88 [INFO] * Test Case 3 : 단말(right child) D의 삭제
+[2025-11-29 23:55:41,005] BinarySearchTreeCharTest.java: 89 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,005] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,006] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,006] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,006] BinarySearchTree.java:315 [INFO]   +     height : 3
+[2025-11-29 23:55:41,006] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,006] BinarySearchTree.java:317 [INFO]   +      nodes : 9
+[2025-11-29 23:55:41,006] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,007] BinarySearchTree.java:324 [INFO]                         I(1)                                                                                                                                                                                
+[2025-11-29 23:55:41,007] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,007] BinarySearchTree.java:324 [INFO]             F(2)                    K(3)                                                                                                                                                                        
+[2025-11-29 23:55:41,007] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,008] BinarySearchTree.java:324 [INFO]       C(4)        H(5)        J(6)        L(7)                                                                                                                                                                          
+[2025-11-29 23:55:41,008] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,008] BinarySearchTree.java:324 [INFO]          D(9)  G(10)                                                                                                                                                                                             
+[2025-11-29 23:55:41,008] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,008] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,009] BinarySearchTree.java:108 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,009] BinarySearchTree.java:109 [INFO] * 노드 삭제
+[2025-11-29 23:55:41,009] BinarySearchTree.java:110 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,009] BinarySearchTree.java:111 [INFO]   + predecessor : C
+[2025-11-29 23:55:41,009] BinarySearchTree.java:112 [INFO]   +     deleted : D
+[2025-11-29 23:55:41,009] BinarySearchTree.java:113 [INFO]   +   successor : D
+[2025-11-29 23:55:41,010] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,010] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,010] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,010] BinarySearchTree.java:315 [INFO]   +     height : 3
+[2025-11-29 23:55:41,010] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,010] BinarySearchTree.java:317 [INFO]   +      nodes : 8
+[2025-11-29 23:55:41,010] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,010] BinarySearchTree.java:324 [INFO]                         I(1)                                                                                                                                                                                
+[2025-11-29 23:55:41,011] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,011] BinarySearchTree.java:324 [INFO]             F(2)                    K(3)                                                                                                                                                                        
+[2025-11-29 23:55:41,011] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,011] BinarySearchTree.java:324 [INFO]       C(4)        H(5)        J(6)        L(7)                                                                                                                                                                          
+[2025-11-29 23:55:41,011] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,011] BinarySearchTree.java:324 [INFO]                G(10)                                                                                                                                                                                         
+[2025-11-29 23:55:41,012] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,012] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,012] BinarySearchTree.java:334 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,012] BinarySearchTree.java:335 [INFO] * 트리 순회
+[2025-11-29 23:55:41,012] BinarySearchTree.java:336 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,013] BinarySearchTree.java:337 [INFO]   + preOrder   --> I F C H G K J L 
+[2025-11-29 23:55:41,013] BinarySearchTree.java:341 [INFO]   + inOrder    --> C F G H I J K L 
+[2025-11-29 23:55:41,014] BinarySearchTree.java:345 [INFO]   + postOrder  --> C G H F J L K I 
+[2025-11-29 23:55:41,014] BinarySearchTree.java:346 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,015] BinarySearchTreeCharTest.java: 98 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,015] BinarySearchTreeCharTest.java: 99 [INFO] * Test Case 4 : 없는 노드 X의 삭제
+[2025-11-29 23:55:41,015] BinarySearchTreeCharTest.java:100 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,015] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,015] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,015] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,015] BinarySearchTree.java:315 [INFO]   +     height : 3
+[2025-11-29 23:55:41,015] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,016] BinarySearchTree.java:317 [INFO]   +      nodes : 8
+[2025-11-29 23:55:41,016] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,016] BinarySearchTree.java:324 [INFO]                         I(1)                                                                                                                                                                                
+[2025-11-29 23:55:41,016] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,016] BinarySearchTree.java:324 [INFO]             F(2)                    K(3)                                                                                                                                                                        
+[2025-11-29 23:55:41,016] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,016] BinarySearchTree.java:324 [INFO]       C(4)        H(5)        J(6)        L(7)                                                                                                                                                                          
+[2025-11-29 23:55:41,017] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,017] BinarySearchTree.java:324 [INFO]                G(10)                                                                                                                                                                                         
+[2025-11-29 23:55:41,017] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,017] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,017] BinarySearchTree.java:146 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,017] BinarySearchTree.java:147 [INFO] * 노드 삭제
+[2025-11-29 23:55:41,017] BinarySearchTree.java:148 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,017] BinarySearchTree.java:149 [INFO]   There is no node, X.
+[2025-11-29 23:55:41,019] BinarySearchTreeCharTest.java:107 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,019] BinarySearchTreeCharTest.java:108 [INFO] * Test Case 5 : 지워진 노드 A의 삭제
+[2025-11-29 23:55:41,019] BinarySearchTreeCharTest.java:109 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,019] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,019] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,019] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,019] BinarySearchTree.java:315 [INFO]   +     height : 3
+[2025-11-29 23:55:41,019] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,019] BinarySearchTree.java:317 [INFO]   +      nodes : 8
+[2025-11-29 23:55:41,019] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,020] BinarySearchTree.java:324 [INFO]                         I(1)                                                                                                                                                                                
+[2025-11-29 23:55:41,020] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,020] BinarySearchTree.java:324 [INFO]             F(2)                    K(3)                                                                                                                                                                        
+[2025-11-29 23:55:41,020] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,020] BinarySearchTree.java:324 [INFO]       C(4)        H(5)        J(6)        L(7)                                                                                                                                                                          
+[2025-11-29 23:55:41,020] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,020] BinarySearchTree.java:324 [INFO]                G(10)                                                                                                                                                                                         
+[2025-11-29 23:55:41,020] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,020] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,020] BinarySearchTree.java:146 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,020] BinarySearchTree.java:147 [INFO] * 노드 삭제
+[2025-11-29 23:55:41,020] BinarySearchTree.java:148 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,020] BinarySearchTree.java:149 [INFO]   There is no node, A.
+[2025-11-29 23:55:41,023] BinarySearchTreeCharTest.java:116 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,023] BinarySearchTreeCharTest.java:117 [INFO] * Test Case 6 : 차수가 1(left)인 H의 삭제
+[2025-11-29 23:55:41,023] BinarySearchTreeCharTest.java:118 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,023] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,023] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,023] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,023] BinarySearchTree.java:315 [INFO]   +     height : 3
+[2025-11-29 23:55:41,023] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,023] BinarySearchTree.java:317 [INFO]   +      nodes : 8
+[2025-11-29 23:55:41,024] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,024] BinarySearchTree.java:324 [INFO]                         I(1)                                                                                                                                                                                
+[2025-11-29 23:55:41,024] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,024] BinarySearchTree.java:324 [INFO]             F(2)                    K(3)                                                                                                                                                                        
+[2025-11-29 23:55:41,024] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,024] BinarySearchTree.java:324 [INFO]       C(4)        H(5)        J(6)        L(7)                                                                                                                                                                          
+[2025-11-29 23:55:41,024] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,024] BinarySearchTree.java:324 [INFO]                G(10)                                                                                                                                                                                         
+[2025-11-29 23:55:41,025] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,025] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,025] BinarySearchTree.java:108 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,025] BinarySearchTree.java:109 [INFO] * 노드 삭제
+[2025-11-29 23:55:41,025] BinarySearchTree.java:110 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,025] BinarySearchTree.java:111 [INFO]   + predecessor : F
+[2025-11-29 23:55:41,025] BinarySearchTree.java:112 [INFO]   +     deleted : H
+[2025-11-29 23:55:41,026] BinarySearchTree.java:113 [INFO]   +   successor : G
+[2025-11-29 23:55:41,026] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,026] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,026] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,026] BinarySearchTree.java:315 [INFO]   +     height : 2
+[2025-11-29 23:55:41,026] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,027] BinarySearchTree.java:317 [INFO]   +      nodes : 7
+[2025-11-29 23:55:41,027] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,027] BinarySearchTree.java:324 [INFO]             I(1)                                                                                                                                                                                            
+[2025-11-29 23:55:41,027] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,027] BinarySearchTree.java:324 [INFO]       F(2)        K(3)                                                                                                                                                                                          
+[2025-11-29 23:55:41,027] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,027] BinarySearchTree.java:324 [INFO]    C(4)  G(5)  J(6)  L(7)                                                                                                                                                                                               
+[2025-11-29 23:55:41,027] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,028] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,028] BinarySearchTree.java:334 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,028] BinarySearchTree.java:335 [INFO] * 트리 순회
+[2025-11-29 23:55:41,028] BinarySearchTree.java:336 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,028] BinarySearchTree.java:337 [INFO]   + preOrder   --> I F C G K J L 
+[2025-11-29 23:55:41,028] BinarySearchTree.java:341 [INFO]   + inOrder    --> C F G I J K L 
+[2025-11-29 23:55:41,028] BinarySearchTree.java:345 [INFO]   + postOrder  --> C G F J L K I 
+[2025-11-29 23:55:41,028] BinarySearchTree.java:346 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,030] BinarySearchTreeCharTest.java:127 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,030] BinarySearchTreeCharTest.java:128 [INFO] * Test Case 7 : 노드D를 추가
+[2025-11-29 23:55:41,030] BinarySearchTreeCharTest.java:129 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,030] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,030] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,030] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,030] BinarySearchTree.java:315 [INFO]   +     height : 2
+[2025-11-29 23:55:41,030] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,030] BinarySearchTree.java:317 [INFO]   +      nodes : 7
+[2025-11-29 23:55:41,031] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,031] BinarySearchTree.java:324 [INFO]             I(1)                                                                                                                                                                                            
+[2025-11-29 23:55:41,031] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,031] BinarySearchTree.java:324 [INFO]       F(2)        K(3)                                                                                                                                                                                          
+[2025-11-29 23:55:41,031] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,032] BinarySearchTree.java:324 [INFO]    C(4)  G(5)  J(6)  L(7)                                                                                                                                                                                               
+[2025-11-29 23:55:41,032] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,032] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,032] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,032] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,032] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,032] BinarySearchTree.java:315 [INFO]   +     height : 3
+[2025-11-29 23:55:41,032] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,033] BinarySearchTree.java:317 [INFO]   +      nodes : 8
+[2025-11-29 23:55:41,033] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,033] BinarySearchTree.java:324 [INFO]                         I(1)                                                                                                                                                                                
+[2025-11-29 23:55:41,033] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,033] BinarySearchTree.java:324 [INFO]             F(2)                    K(3)                                                                                                                                                                        
+[2025-11-29 23:55:41,033] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,033] BinarySearchTree.java:324 [INFO]       C(4)        G(5)        J(6)        L(7)                                                                                                                                                                          
+[2025-11-29 23:55:41,034] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,034] BinarySearchTree.java:324 [INFO]          D(9)                                                                                                                                                                                               
+[2025-11-29 23:55:41,034] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,034] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,034] BinarySearchTree.java:334 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,034] BinarySearchTree.java:335 [INFO] * 트리 순회
+[2025-11-29 23:55:41,034] BinarySearchTree.java:336 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,034] BinarySearchTree.java:337 [INFO]   + preOrder   --> I F C D G K J L 
+[2025-11-29 23:55:41,034] BinarySearchTree.java:341 [INFO]   + inOrder    --> C D F G I J K L 
+[2025-11-29 23:55:41,035] BinarySearchTree.java:345 [INFO]   + postOrder  --> D C G F J L K I 
+[2025-11-29 23:55:41,035] BinarySearchTree.java:346 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,036] BinarySearchTreeCharTest.java:138 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,036] BinarySearchTreeCharTest.java:139 [INFO] * Test Case 8 : 차수가 1(right)인 C의 삭제
+[2025-11-29 23:55:41,036] BinarySearchTreeCharTest.java:140 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,036] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,036] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,036] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,036] BinarySearchTree.java:315 [INFO]   +     height : 3
+[2025-11-29 23:55:41,036] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,036] BinarySearchTree.java:317 [INFO]   +      nodes : 8
+[2025-11-29 23:55:41,036] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,036] BinarySearchTree.java:324 [INFO]                         I(1)                                                                                                                                                                                
+[2025-11-29 23:55:41,036] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,037] BinarySearchTree.java:324 [INFO]             F(2)                    K(3)                                                                                                                                                                        
+[2025-11-29 23:55:41,037] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,037] BinarySearchTree.java:324 [INFO]       C(4)        G(5)        J(6)        L(7)                                                                                                                                                                          
+[2025-11-29 23:55:41,037] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,037] BinarySearchTree.java:324 [INFO]          D(9)                                                                                                                                                                                               
+[2025-11-29 23:55:41,037] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,037] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,037] BinarySearchTree.java:108 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,037] BinarySearchTree.java:109 [INFO] * 노드 삭제
+[2025-11-29 23:55:41,037] BinarySearchTree.java:110 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,037] BinarySearchTree.java:111 [INFO]   + predecessor : F
+[2025-11-29 23:55:41,038] BinarySearchTree.java:112 [INFO]   +     deleted : C
+[2025-11-29 23:55:41,038] BinarySearchTree.java:113 [INFO]   +   successor : D
+[2025-11-29 23:55:41,038] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,038] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,038] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,038] BinarySearchTree.java:315 [INFO]   +     height : 2
+[2025-11-29 23:55:41,038] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,038] BinarySearchTree.java:317 [INFO]   +      nodes : 7
+[2025-11-29 23:55:41,038] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,038] BinarySearchTree.java:324 [INFO]             I(1)                                                                                                                                                                                            
+[2025-11-29 23:55:41,039] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,039] BinarySearchTree.java:324 [INFO]       F(2)        K(3)                                                                                                                                                                                          
+[2025-11-29 23:55:41,039] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,039] BinarySearchTree.java:324 [INFO]    D(4)  G(5)  J(6)  L(7)                                                                                                                                                                                               
+[2025-11-29 23:55:41,039] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,039] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,039] BinarySearchTree.java:334 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,039] BinarySearchTree.java:335 [INFO] * 트리 순회
+[2025-11-29 23:55:41,039] BinarySearchTree.java:336 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,039] BinarySearchTree.java:337 [INFO]   + preOrder   --> I F D G K J L 
+[2025-11-29 23:55:41,041] BinarySearchTree.java:341 [INFO]   + inOrder    --> D F G I J K L 
+[2025-11-29 23:55:41,041] BinarySearchTree.java:345 [INFO]   + postOrder  --> D G F J L K I 
+[2025-11-29 23:55:41,041] BinarySearchTree.java:346 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,042] BinarySearchTreeCharTest.java:149 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,042] BinarySearchTreeCharTest.java:150 [INFO] * Test Case 9 : 차수가 2인 노드 K의 삭제
+[2025-11-29 23:55:41,042] BinarySearchTreeCharTest.java:151 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,042] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,042] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,042] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,042] BinarySearchTree.java:315 [INFO]   +     height : 2
+[2025-11-29 23:55:41,042] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,042] BinarySearchTree.java:317 [INFO]   +      nodes : 7
+[2025-11-29 23:55:41,042] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,043] BinarySearchTree.java:324 [INFO]             I(1)                                                                                                                                                                                            
+[2025-11-29 23:55:41,043] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,043] BinarySearchTree.java:324 [INFO]       F(2)        K(3)                                                                                                                                                                                          
+[2025-11-29 23:55:41,043] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,043] BinarySearchTree.java:324 [INFO]    D(4)  G(5)  J(6)  L(7)                                                                                                                                                                                               
+[2025-11-29 23:55:41,043] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,043] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,043] BinarySearchTree.java:108 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,044] BinarySearchTree.java:109 [INFO] * 노드 삭제
+[2025-11-29 23:55:41,044] BinarySearchTree.java:110 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,044] BinarySearchTree.java:111 [INFO]   + predecessor : I
+[2025-11-29 23:55:41,044] BinarySearchTree.java:112 [INFO]   +     deleted : K
+[2025-11-29 23:55:41,044] BinarySearchTree.java:113 [INFO]   +   successor : J
+[2025-11-29 23:55:41,044] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,044] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,044] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,044] BinarySearchTree.java:315 [INFO]   +     height : 2
+[2025-11-29 23:55:41,044] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,044] BinarySearchTree.java:317 [INFO]   +      nodes : 6
+[2025-11-29 23:55:41,044] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,045] BinarySearchTree.java:324 [INFO]             I(1)                                                                                                                                                                                            
+[2025-11-29 23:55:41,045] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,045] BinarySearchTree.java:324 [INFO]       F(2)        J(3)                                                                                                                                                                                          
+[2025-11-29 23:55:41,045] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,045] BinarySearchTree.java:324 [INFO]    D(4)  G(5)        L(7)                                                                                                                                                                                           
+[2025-11-29 23:55:41,045] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,045] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,045] BinarySearchTree.java:334 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,045] BinarySearchTree.java:335 [INFO] * 트리 순회
+[2025-11-29 23:55:41,045] BinarySearchTree.java:336 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,045] BinarySearchTree.java:337 [INFO]   + preOrder   --> I F D G J L 
+[2025-11-29 23:55:41,045] BinarySearchTree.java:341 [INFO]   + inOrder    --> D F G I J L 
+[2025-11-29 23:55:41,045] BinarySearchTree.java:345 [INFO]   + postOrder  --> D G F L J I 
+[2025-11-29 23:55:41,045] BinarySearchTree.java:346 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,046] BinarySearchTreeCharTest.java:160 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,046] BinarySearchTreeCharTest.java:161 [INFO] * Test Case 10 : root 노드 I의 삭제
+[2025-11-29 23:55:41,046] BinarySearchTreeCharTest.java:162 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,047] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,047] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,047] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,047] BinarySearchTree.java:315 [INFO]   +     height : 2
+[2025-11-29 23:55:41,047] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,047] BinarySearchTree.java:317 [INFO]   +      nodes : 6
+[2025-11-29 23:55:41,047] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,047] BinarySearchTree.java:324 [INFO]             I(1)                                                                                                                                                                                            
+[2025-11-29 23:55:41,047] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,047] BinarySearchTree.java:324 [INFO]       F(2)        J(3)                                                                                                                                                                                          
+[2025-11-29 23:55:41,047] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,047] BinarySearchTree.java:324 [INFO]    D(4)  G(5)        L(7)                                                                                                                                                                                           
+[2025-11-29 23:55:41,047] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,047] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,048] BinarySearchTree.java:108 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,048] BinarySearchTree.java:109 [INFO] * 노드 삭제
+[2025-11-29 23:55:41,048] BinarySearchTree.java:110 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,048] BinarySearchTree.java:111 [INFO]   + predecessor : I
+[2025-11-29 23:55:41,048] BinarySearchTree.java:112 [INFO]   +     deleted : I
+[2025-11-29 23:55:41,048] BinarySearchTree.java:113 [INFO]   +   successor : G
+[2025-11-29 23:55:41,048] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,048] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,048] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,048] BinarySearchTree.java:315 [INFO]   +     height : 2
+[2025-11-29 23:55:41,048] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,048] BinarySearchTree.java:317 [INFO]   +      nodes : 5
+[2025-11-29 23:55:41,048] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,048] BinarySearchTree.java:324 [INFO]             G(1)                                                                                                                                                                                            
+[2025-11-29 23:55:41,049] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,049] BinarySearchTree.java:324 [INFO]       F(2)        J(3)                                                                                                                                                                                          
+[2025-11-29 23:55:41,049] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,049] BinarySearchTree.java:324 [INFO]    D(4)              L(7)                                                                                                                                                                                       
+[2025-11-29 23:55:41,049] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,049] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,049] BinarySearchTree.java:334 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,049] BinarySearchTree.java:335 [INFO] * 트리 순회
+[2025-11-29 23:55:41,049] BinarySearchTree.java:336 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,049] BinarySearchTree.java:337 [INFO]   + preOrder   --> G F D J L 
+[2025-11-29 23:55:41,049] BinarySearchTree.java:341 [INFO]   + inOrder    --> D F G J L 
+[2025-11-29 23:55:41,050] BinarySearchTree.java:345 [INFO]   + postOrder  --> D F L J G 
+[2025-11-29 23:55:41,050] BinarySearchTree.java:346 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,050] BinarySearchTreeCharTest.java:171 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,050] BinarySearchTreeCharTest.java:172 [INFO] * Test Case 11 : 노드 탐색
+[2025-11-29 23:55:41,050] BinarySearchTreeCharTest.java:173 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,051] BinarySearchTreeCharTest.java:174 [INFO]   Is it node 'A'? : false
+[2025-11-29 23:55:41,051] BinarySearchTreeCharTest.java:175 [INFO]   Is it node 'G'? : true
+[2025-11-29 23:55:41,051] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,051] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,051] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,051] BinarySearchTree.java:315 [INFO]   +     height : 2
+[2025-11-29 23:55:41,051] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,051] BinarySearchTree.java:317 [INFO]   +      nodes : 5
+[2025-11-29 23:55:41,051] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,051] BinarySearchTree.java:324 [INFO]             G(1)                                                                                                                                                                                            
+[2025-11-29 23:55:41,051] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,051] BinarySearchTree.java:324 [INFO]       F(2)        J(3)                                                                                                                                                                                          
+[2025-11-29 23:55:41,051] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,051] BinarySearchTree.java:324 [INFO]    D(4)              L(7)                                                                                                                                                                                       
+[2025-11-29 23:55:41,051] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,051] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,052] BinarySearchTreeCharTest.java:181 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,052] BinarySearchTreeCharTest.java:182 [INFO] * Test Case 12 : 이미 존재하는 D를 추가
+[2025-11-29 23:55:41,052] BinarySearchTreeCharTest.java:183 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,052] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,052] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,052] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,052] BinarySearchTree.java:315 [INFO]   +     height : 2
+[2025-11-29 23:55:41,052] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,052] BinarySearchTree.java:317 [INFO]   +      nodes : 5
+[2025-11-29 23:55:41,052] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,052] BinarySearchTree.java:324 [INFO]             G(1)                                                                                                                                                                                            
+[2025-11-29 23:55:41,053] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,053] BinarySearchTree.java:324 [INFO]       F(2)        J(3)                                                                                                                                                                                          
+[2025-11-29 23:55:41,053] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,053] BinarySearchTree.java:324 [INFO]    D(4)              L(7)                                                                                                                                                                                       
+[2025-11-29 23:55:41,053] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,053] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,053] BinarySearchTree.java: 53 [INFO]   The node D is already exist.
+[2025-11-29 23:55:41,053] BinarySearchTree.java:312 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,053] BinarySearchTree.java:313 [INFO] * 트리 구조 
+[2025-11-29 23:55:41,053] BinarySearchTree.java:314 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,053] BinarySearchTree.java:315 [INFO]   +     height : 2
+[2025-11-29 23:55:41,053] BinarySearchTree.java:316 [INFO]   +     degree : 2
+[2025-11-29 23:55:41,053] BinarySearchTree.java:317 [INFO]   +      nodes : 5
+[2025-11-29 23:55:41,053] BinarySearchTree.java:318 [INFO]   +  structure : 
+[2025-11-29 23:55:41,053] BinarySearchTree.java:324 [INFO]             G(1)                                                                                                                                                                                            
+[2025-11-29 23:55:41,053] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,054] BinarySearchTree.java:324 [INFO]       F(2)        J(3)                                                                                                                                                                                          
+[2025-11-29 23:55:41,054] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,054] BinarySearchTree.java:324 [INFO]    D(4)              L(7)                                                                                                                                                                                       
+[2025-11-29 23:55:41,054] BinarySearchTree.java:325 [INFO] 
+[2025-11-29 23:55:41,054] BinarySearchTree.java:327 [INFO] --------------------------------------------
+
+[2025-11-29 23:55:41,054] BinarySearchTree.java:334 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,054] BinarySearchTree.java:335 [INFO] * 트리 순회
+[2025-11-29 23:55:41,054] BinarySearchTree.java:336 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,054] BinarySearchTree.java:337 [INFO]   + preOrder   --> G F D J L 
+[2025-11-29 23:55:41,054] BinarySearchTree.java:341 [INFO]   + inOrder    --> D F G J L 
+[2025-11-29 23:55:41,054] BinarySearchTree.java:345 [INFO]   + postOrder  --> D F L J G 
+[2025-11-29 23:55:41,054] BinarySearchTree.java:346 [INFO] --------------------------------------------
+[2025-11-29 23:55:41,056] BinarySearchTreeCharTest.java: 22 [INFO] After All
